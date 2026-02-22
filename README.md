@@ -1,8 +1,8 @@
-# @vspro/name-match-pro
+# name-match-pro
 
 A robust name matching library for Node.js and TypeScript that combines multiple strategies — initials handling, token swapping, fuzzy similarity, and prefix normalization — for accurate name matching in fintech, insurance, CRM, KYC, OCR and other applications.
 
-[![npm version](https://img.shields.io/npm/v/@vspro/name-match-pro)](https://www.npmjs.com/package/@vspro/name-match-pro)
+[![npm version](https://img.shields.io/npm/v/name-match-pro)](https://www.npmjs.com/package/name-match-pro)
 ![Test Coverage](https://img.shields.io/badge/Test%20Coverage-98%25-brightgreen)
 ![TypeScript](https://img.shields.io/badge/TypeScript-Supported-3178C6?logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-Supported-F7DF1E?logo=javascript&logoColor=black)
@@ -27,13 +27,13 @@ A robust name matching library for Node.js and TypeScript that combines multiple
 ## Installation
 
 ```bash
-npm install @vspro/name-match-pro
+npm install name-match-pro
 ```
 
 Or yarn:
 
 ```bash
-yarn add @vspro/name-match-pro
+yarn add name-match-pro
 ```
 
 ---
@@ -41,7 +41,7 @@ yarn add @vspro/name-match-pro
 ## Quick Start (JavaScript)
 
 ```javascript
-const { matchNames } = require('@vspro/name-match-pro');
+const { matchNames } = require('name-match-pro');
 
 const result = matchNames('Sagar Kumar Jangid', 'Sagar Kumar J');
 
@@ -61,7 +61,7 @@ console.log(result);
 ## TypeScript Example
 
 ```ts
-import { matchNames } from '@vspro/name-match-pro';
+import { matchNames } from 'name-match-pro';
 
 const result = matchNames('Sagar Kumar Jangid', 'Sagar Kumar J');
 
@@ -83,7 +83,7 @@ console.log(result);
 ```ts
 // pages/api/match.ts
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { matchNames } from '@vspro/name-match-pro';
+import { matchNames } from 'name-match-pro';
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   const { inputName, givenName } = req.query;
@@ -115,7 +115,7 @@ Response:
 ## Advanced Usage
 
 ```ts
-import { matchNames } from '@vspro/name-match-pro';
+import { matchNames } from 'name-match-pro';
 
 const examples = [
   { input: 'K S Gowri', given: 'Gowri K S' },
