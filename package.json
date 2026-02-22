@@ -4,6 +4,11 @@
     "description": "A robust name matching utility with initials handling and fuzzy logic useful for fintech and insurance kyc, ocr and crm",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codewithVS/name-match-pro.git"
+  },
+  "homepage": "https://github.com/codewithVS/name-match-pro#readme",
     "scripts": {
       "build": "tsc",
       "example": "ts-node src/examples/example.ts"
