@@ -4,7 +4,6 @@ A robust name matching library for Node.js and TypeScript that combines multiple
 
 [![npm version](https://img.shields.io/npm/v/@vspro/name-match-pro)](https://www.npmjs.com/package/@vspro/name-match-pro)
 ![Test Coverage](https://img.shields.io/badge/Test%20Coverage-98%25-brightgreen)
-![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?logo=node.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-Supported-3178C6?logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-Supported-F7DF1E?logo=javascript&logoColor=black)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
