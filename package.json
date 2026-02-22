@@ -6,7 +6,6 @@
     "types": "dist/index.d.ts",
     "scripts": {
       "build": "tsc",
-      "test": "jest",
       "example": "ts-node src/examples/example.ts"
     },
     "keywords": ["name-matching", "fuzzy", "initials", "levenshtein"],
