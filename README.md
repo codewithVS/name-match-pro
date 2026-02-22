@@ -1,6 +1,6 @@
 # name-match-pro
 
-A Most Powerful robust name matching library for Node.js and TypeScript that combines multiple strategies — initials handling, token swapping, fuzzy similarity, and prefix normalization — for accurate name matching in fintech, insurance, CRM, KYC, OCR and other applications.
+A Most Powerful robust name matching library for Node.js and TypeScript that combines multiple strategies — initials handling, token swapping, fuzzy similarity, and prefix normalization — for accurate name matching in **fintech, insurance, CRM, KYC, OCR and other applications**.
 
 [![npm version](https://img.shields.io/npm/v/name-match-pro)](https://www.npmjs.com/package/name-match-pro)
 ![Test Coverage](https://img.shields.io/badge/Test%20Coverage-98%25-brightgreen)
